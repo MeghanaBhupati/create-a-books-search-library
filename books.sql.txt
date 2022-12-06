@@ -1,0 +1,43 @@
+CREATE TABLE Books
+(
+year number(10),
+title varchar2(20),
+writer varchar2(20),
+publisher varchar2(20)
+)
+
+INSERT INTO Books VALUES('1991','Tree of Cranes','Allen Say','Houghton Mifflin')
+INSERT INTO Books VALUES('1993','A Carp for Kimiko','Virginia Kroll','Charlesbridge')
+INSERT INTO Books VALUES('1993','Baseball saved us','Dom Lee','Lee & Low')
+INSERT INTO Books VALUES('1993','The Bracelet','Yoshika uchida','Philomel')
+INSERT INTO Books VALUES('1997','Hereos','Ken Mochizuki','Lee & Low')
+INSERT INTO Books VALUES('1999','Akikhos Flowers','Rui Umezava','Tundra')
+INSERT INTO Books VALUES('2001','The sea maidens','Lilli Bell','Lilli Bell')
+INSERT INTO Books VALUES('2002','Home of the Brave','Allen say','Houghton Mifflin')
+INSERT INTO Books VALUES('2002','The way we japan','Geneva cobb','Albert whitman')
+INSERT INTO Books VALUES('2003','Sukis kimono','Chieri uegaki','Kids can press')
+INSERT INTO Books VALUES('2004','Allison','Mari takabayashi','Houghton Mifflin')
+INSERT INTO Books VALUES('2004','I live in tokyo','Allen say','Houghton Mifflin')
+INSERT INTO Books VALUES('2004','Music for alice','Elena Lopez','Houghton Mifflin')
+INSERT INTO Books VALUES('2005','Night flies','Betty ronalds','Boyds mills press')
+INSERT INTO Books VALUES('2005','Kamishibai Man','Holly thompson','Houghton Mifflin')
+INSERT INTO Books VALUES('2006','Viva japan','Joe martel','author house')
+INSERT INTO Books VALUES('2007','Japan Celebrations','Allen say','Tuutle')
+INSERT INTO Books VALUES('2008','The Wakame Gotherers','Elenar corr','Shenz books')
+INSERT INTO Books VALUES('2008','In my Day','Allen Say','Create space')
+INSERT INTO Books VALUES('2008','Grandfathers journey','Allen Say','Houghton Mifflin')
+INSERT INTO Books VALUES('2009','Wabi Sabi','Army lee','Little brown')
+INSERT INTO Books VALUES('2009','Erika San','Allen Say','Houghton Mifflin')
+INSERT INTO Books VALUES('2009','My Japan','Army lee','kane')
+INSERT INTO Books VALUES('2010','Tea with Milk','Elenor corr','tuttle')
+INSERT INTO Books VALUES('2010','Circus Japan','Gonk Lee','Shenzbooks')
+INSERT INTO Books VALUES('2011','The boy in garden','Allen Say','lilly rock')
+INSERT INTO Books VALUES('2012','Drawing from memory','Lilli Bell','authors house')
+INSERT INTO Books VALUES('2012','Sunflowers Grow','Allen Say','Houghton Mifflin')
+INSERT INTO Books VALUES('2013','Sara and the clouds','Elenor corr','Houghton Mifflin')
+INSERT INTO Books VALUES('2013','Fish for jimmy','Allen Say','create space')
+INSERT INTO Books VALUES('2013','Passage to Freedom','Elenor corr','Lee & Low')
+INSERT INTO Books VALUES('2015','Favourite Daughter','Allen Say','Aurthors house')
+
+DESC Books;
+SELECT * FROM Books;
